@@ -211,9 +211,9 @@ CREATE POLICY "Authenticated can insert activity"
   TO authenticated
   WITH CHECK (true);
 
--- ------------------------------------------------------------
+-- ----------------------------------------------------
 -- Helper: refresh seller rating from reviews
--- ------------------------------------------------------------
+-- ---------------------------------------------------
 CREATE OR REPLACE FUNCTION public.refresh_seller_rating(p_seller_id UUID)
 RETURNS void AS $$
 BEGIN

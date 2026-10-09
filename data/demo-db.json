@@ -198,6 +198,19 @@
   ],
   "orders": [
     {
+      "id": "ord-1791560801364",
+      "email": "nanzycodes@gmail.com",
+      "firstName": "Nasiru",
+      "lastName": "Abdulkarim",
+      "phone": "08111813934",
+      "total": 36000,
+      "subtotal": 33500,
+      "shippingFee": 2500,
+      "status": "paid",
+      "paymentReference": "DEMO-MV151LJO",
+      "createdAt": "2026-10-09T15:46:41.364Z"
+    },
+    {
       "id": "ord-1791310654465",
       "email": "nanzyamodu@gmail.com",
       "firstName": "Nasiru",
@@ -300,6 +313,19 @@
     }
   ],
   "activity": [
+    {
+      "id": "act-1791560801365",
+      "actorId": "buyer-demo-001",
+      "actorRole": "buyer",
+      "action": "order_placed",
+      "entityType": "order",
+      "entityId": "ord-1791560801364",
+      "metadata": {
+        "total": 36000,
+        "ref": "DEMO-MV151LJO"
+      },
+      "createdAt": "2026-10-09T15:46:41.365Z"
+    },
     {
       "id": "act-1791310654466",
       "actorId": "buyer-demo-001",

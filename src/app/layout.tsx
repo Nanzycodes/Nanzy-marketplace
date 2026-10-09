@@ -24,15 +24,15 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: {
     default: "Nanzy Clothes | Modern Fashion Store",
-    template: "%s | Nanzy Clothes",
+    template: "%s | Nanzy Marketplace",
   },
   description:
-    "Discover stylish clothing for men and women. Quality fashion delivered fast. Shop the latest trends at Nanzy Clothes.",
+    "Discover stylish clothing and other accessories for men and women. Quality fashion delivered fast. Shop the latest trends at Nanzy Marketplace.",
   keywords: ["clothing", "fashion", "men", "women", "accessories", "online store"],
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "Nanzy Clothes",
+    siteName: "Nanzy Marketplace",
   },
 };
 
