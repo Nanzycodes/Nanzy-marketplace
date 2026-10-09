@@ -26,6 +26,8 @@ export default function ReviewList({ productId }: ReviewListProps) {
     loadReviews();
 
     const supabase = createClient();
+    if (!supabase) return;
+
     supabase.auth.getUser().then(({ data: { user } }) => {
       setIsLoggedIn(!!user);
     });
