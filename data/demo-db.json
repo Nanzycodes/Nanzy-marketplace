@@ -1,0 +1,409 @@
+{
+  "profiles": [
+    {
+      "id": "admin-demo-001",
+      "email": "admin@nanzy.com",
+      "fullName": "Platform Admin",
+      "role": "admin",
+      "avatarUrl": null,
+      "phone": 2348111812924,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "seller-demo-001",
+      "email": "seller@nanzycodes.com",
+      "fullName": "Ada Fashion",
+      "role": "seller",
+      "avatarUrl": null,
+      "phone": "08011112222",
+      "createdAt": "2026-01-05T00:00:00.000Z"
+    },
+    {
+      "id": "seller-demo-002",
+      "email": "lowrated@nanzy.com",
+      "fullName": "Quick Stitch",
+      "role": "seller",
+      "avatarUrl": null,
+      "phone": null,
+      "createdAt": "2026-01-10T00:00:00.000Z"
+    },
+    {
+      "id": "buyer-demo-001",
+      "email": "buyer@nanzy.com",
+      "fullName": "Chioma Buyer",
+      "role": "buyer",
+      "avatarUrl": null,
+      "phone": "08033334444",
+      "createdAt": "2026-01-15T00:00:00.000Z"
+    }
+  ],
+  "sellers": [
+    {
+      "id": "store-001",
+      "userId": "seller-demo-001",
+      "storeName": "Ada Fashion Hub",
+      "storeSlug": "ada-fashion-hub",
+      "description": "Premium Ankara and ready-to-wear",
+      "logoUrl": null,
+      "subscriptionStatus": "active",
+      "subscriptionPlan": "basic",
+      "subscribedAt": "2026-10-06T18:11:23.517Z",
+      "subscriptionEndsAt": "2026-11-06T18:11:23.517Z",
+      "avgRating": 4.6,
+      "reviewCount": 5,
+      "totalSales": 44,
+      "responseRate": 100,
+      "isApproved": true,
+      "createdAt": "2026-01-05T00:00:00.000Z"
+    },
+    {
+      "id": "store-002",
+      "userId": "seller-demo-002",
+      "storeName": "Quick Stitch Co",
+      "storeSlug": "quick-stitch",
+      "description": "Budget basics",
+      "logoUrl": null,
+      "subscriptionStatus": "trial",
+      "subscriptionPlan": "basic",
+      "subscribedAt": "2026-01-10T00:00:00.000Z",
+      "subscriptionEndsAt": "2026-01-24T00:00:00.000Z",
+      "avgRating": 2.2,
+      "reviewCount": 4,
+      "totalSales": 8,
+      "responseRate": 25,
+      "isApproved": true,
+      "createdAt": "2026-01-10T00:00:00.000Z"
+    },
+    {
+      "id": "store-003",
+      "userId": "pending-seller-001",
+      "storeName": "New Vintage Lagos",
+      "storeSlug": "new-vintage-lagos",
+      "description": "Waiting for approval",
+      "logoUrl": null,
+      "subscriptionStatus": "trial",
+      "subscriptionPlan": "basic",
+      "subscribedAt": "2026-02-01T00:00:00.000Z",
+      "subscriptionEndsAt": "2026-02-15T00:00:00.000Z",
+      "avgRating": 0,
+      "reviewCount": 0,
+      "totalSales": 0,
+      "responseRate": 100,
+      "isApproved": false,
+      "createdAt": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": "store-1791310267628",
+      "userId": "seller-local-1791310267628",
+      "storeName": "nanzy",
+      "storeSlug": "nanzy-7628",
+      "description": "nanzy",
+      "logoUrl": null,
+      "subscriptionStatus": "trial",
+      "subscriptionPlan": "basic",
+      "subscribedAt": "2026-10-06T18:11:07.628Z",
+      "subscriptionEndsAt": "2026-10-20T18:11:07.628Z",
+      "avgRating": 0,
+      "reviewCount": 0,
+      "totalSales": 0,
+      "responseRate": 100,
+      "isApproved": false,
+      "createdAt": "2026-10-06T18:11:07.628Z"
+    },
+    {
+      "id": "store-1791310469134",
+      "userId": "seller-local-1791310469134",
+      "storeName": "nanzy",
+      "storeSlug": "nanzy-9134",
+      "description": "I sell clothes",
+      "logoUrl": null,
+      "subscriptionStatus": "trial",
+      "subscriptionPlan": "basic",
+      "subscribedAt": "2026-10-06T18:14:29.134Z",
+      "subscriptionEndsAt": "2026-10-20T18:14:29.134Z",
+      "avgRating": 0,
+      "reviewCount": 0,
+      "totalSales": 0,
+      "responseRate": 100,
+      "isApproved": false,
+      "createdAt": "2026-10-06T18:14:29.134Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "name": "Classic White Tee",
+      "slug": "classic-white-tee",
+      "description": "Premium cotton t-shirt.",
+      "price": 8500,
+      "compareAtPrice": 12000,
+      "category": "men",
+      "images": [],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "White",
+        "Black"
+      ],
+      "inStock": true,
+      "featured": true,
+      "sellerId": "store-001",
+      "createdAt": "2026-01-08T00:00:00.000Z"
+    },
+    {
+      "id": "p2",
+      "name": "Linen Summer Dress",
+      "slug": "linen-summer-dress",
+      "description": "Light linen dress.",
+      "price": 22500,
+      "compareAtPrice": 28000,
+      "category": "women",
+      "images": [],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Beige",
+        "White"
+      ],
+      "inStock": true,
+      "featured": true,
+      "sellerId": "store-001",
+      "createdAt": "2026-01-09T00:00:00.000Z"
+    },
+    {
+      "id": "p3",
+      "name": "Budget Cap",
+      "slug": "budget-cap",
+      "description": "Simple cap.",
+      "price": 3500,
+      "compareAtPrice": null,
+      "category": "accessories",
+      "images": [],
+      "sizes": [],
+      "colors": [
+        "Black"
+      ],
+      "inStock": true,
+      "featured": false,
+      "sellerId": "store-002",
+      "createdAt": "2026-01-12T00:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1791310654465",
+      "email": "nanzyamodu@gmail.com",
+      "firstName": "Nasiru",
+      "lastName": "Abdulkarim",
+      "phone": "8111813934",
+      "total": 19500,
+      "subtotal": 17000,
+      "shippingFee": 2500,
+      "status": "paid",
+      "paymentReference": "DEMO-MUX042YP",
+      "createdAt": "2026-10-06T18:17:34.465Z"
+    },
+    {
+      "id": "ord-001",
+      "email": "buyer@nanzy.com",
+      "firstName": "Chioma",
+      "lastName": "Buyer",
+      "phone": "08033334444",
+      "total": 31000,
+      "subtotal": 28500,
+      "shippingFee": 2500,
+      "status": "paid",
+      "paymentReference": "DEMO-REF-001",
+      "createdAt": "2026-02-10T10:00:00.000Z"
+    },
+    {
+      "id": "ord-002",
+      "email": "guest@email.com",
+      "firstName": "Tunde",
+      "lastName": "Okafor",
+      "phone": "08055556666",
+      "total": 3500,
+      "subtotal": 3500,
+      "shippingFee": 0,
+      "status": "paid",
+      "paymentReference": "DEMO-REF-002",
+      "createdAt": "2026-02-12T14:30:00.000Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-001",
+      "productId": "p1",
+      "productName": "Classic White Tee",
+      "sellerId": "store-001",
+      "storeName": "Ada Fashion Hub",
+      "userId": "buyer-demo-001",
+      "userName": "Chioma Buyer",
+      "rating": 5,
+      "comment": "Excellent quality, fast delivery!",
+      "createdAt": "2026-02-11T09:00:00.000Z",
+      "reply": {
+        "id": "reply-001",
+        "message": "Thank you Chioma! We appreciate your support.",
+        "createdAt": "2026-02-11T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "rev-002",
+      "productId": "p2",
+      "productName": "Linen Summer Dress",
+      "sellerId": "store-001",
+      "storeName": "Ada Fashion Hub",
+      "userId": "buyer-demo-001",
+      "userName": "Chioma Buyer",
+      "rating": 4,
+      "comment": "Beautiful dress, sizing runs slightly small.",
+      "createdAt": "2026-02-11T10:00:00.000Z",
+      "reply": {
+        "id": "reply-002",
+        "message": "Thanks for the feedback — we'll update the size guide.",
+        "createdAt": "2026-02-11T15:00:00.000Z"
+      }
+    },
+    {
+      "id": "rev-003",
+      "productId": "p3",
+      "productName": "Budget Cap",
+      "sellerId": "store-002",
+      "storeName": "Quick Stitch Co",
+      "userId": "buyer-demo-001",
+      "userName": "Chioma Buyer",
+      "rating": 2,
+      "comment": "Cap arrived late and quality is poor.",
+      "createdAt": "2026-02-13T08:00:00.000Z",
+      "reply": null
+    },
+    {
+      "id": "rev-004",
+      "productId": "p3",
+      "productName": "Budget Cap",
+      "sellerId": "store-002",
+      "storeName": "Quick Stitch Co",
+      "userId": "buyer-demo-001",
+      "userName": "Another Buyer",
+      "rating": 1,
+      "comment": "No response from seller after complaint.",
+      "createdAt": "2026-02-14T08:00:00.000Z",
+      "reply": null
+    }
+  ],
+  "activity": [
+    {
+      "id": "act-1791310654466",
+      "actorId": "buyer-demo-001",
+      "actorRole": "buyer",
+      "action": "order_placed",
+      "entityType": "order",
+      "entityId": "ord-1791310654465",
+      "metadata": {
+        "total": 19500,
+        "ref": "DEMO-MUX042YP"
+      },
+      "createdAt": "2026-10-06T18:17:34.466Z"
+    },
+    {
+      "id": "act-1791310469134",
+      "actorId": "seller-local-1791310469134",
+      "actorRole": "seller",
+      "action": "seller_registered",
+      "entityType": "seller",
+      "entityId": "store-1791310469134",
+      "metadata": {
+        "store_name": "nanzy"
+      },
+      "createdAt": "2026-10-06T18:14:29.134Z"
+    },
+    {
+      "id": "act-1791310283517",
+      "actorId": "seller-demo-001",
+      "actorRole": "seller",
+      "action": "seller_subscribed",
+      "entityType": "seller",
+      "entityId": "store-001",
+      "metadata": {
+        "plan": "basic"
+      },
+      "createdAt": "2026-10-06T18:11:23.517Z"
+    },
+    {
+      "id": "act-1791310267628",
+      "actorId": "seller-local-1791310267628",
+      "actorRole": "seller",
+      "action": "seller_registered",
+      "entityType": "seller",
+      "entityId": "store-1791310267628",
+      "metadata": {
+        "store_name": "nanzy"
+      },
+      "createdAt": "2026-10-06T18:11:07.628Z"
+    },
+    {
+      "id": "act-001",
+      "actorId": "seller-demo-001",
+      "actorRole": "seller",
+      "action": "seller_subscribed",
+      "entityType": "seller",
+      "entityId": "store-001",
+      "metadata": {
+        "plan": "pro"
+      },
+      "createdAt": "2026-01-06T00:00:00.000Z"
+    },
+    {
+      "id": "act-002",
+      "actorId": "admin-demo-001",
+      "actorRole": "admin",
+      "action": "seller_approved",
+      "entityType": "seller",
+      "entityId": "store-001",
+      "metadata": {},
+      "createdAt": "2026-01-07T00:00:00.000Z"
+    },
+    {
+      "id": "act-003",
+      "actorId": "buyer-demo-001",
+      "actorRole": "buyer",
+      "action": "order_placed",
+      "entityType": "order",
+      "entityId": "ord-001",
+      "metadata": {
+        "total": 31000
+      },
+      "createdAt": "2026-02-10T10:00:00.000Z"
+    },
+    {
+      "id": "act-004",
+      "actorId": "buyer-demo-001",
+      "actorRole": "buyer",
+      "action": "review_created",
+      "entityType": "review",
+      "entityId": "rev-001",
+      "metadata": {
+        "rating": 5
+      },
+      "createdAt": "2026-02-11T09:00:00.000Z"
+    },
+    {
+      "id": "act-005",
+      "actorId": "seller-demo-001",
+      "actorRole": "seller",
+      "action": "reply_to_review",
+      "entityType": "review",
+      "entityId": "rev-001",
+      "metadata": {},
+      "createdAt": "2026-02-11T12:00:00.000Z"
+    }
+  ]
+}
